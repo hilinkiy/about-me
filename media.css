@@ -1,0 +1,131 @@
+/* 1400 - 1399.99*/
+
+/* 1200 - 1199.99 */
+
+/* 992 - 991.99 */
+
+/* 768 - 767.99 */
+
+/* 576 - 575.99 */
+
+@media (max-width: 1199.99px) {
+    .nav {
+        padding: 15px;
+    }
+
+    .about__me {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 991.99px) {
+    .list__link {
+        font-size: 20px;
+    }
+
+    .nav__content-logo {
+        font-size: 32px;
+    }
+
+    .about__me-content {
+        flex-direction: column;
+    }
+
+    .about__me-text {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .project__content {
+        justify-content: center;
+        row-gap: 15px;
+        column-gap: 15px;
+    }
+
+    .about__me-content img {
+        max-width: 100%;
+    }
+
+    .about__text-title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .content__text-des {
+        margin-top: 24px;
+        font-size: 16px;
+    }
+
+    .about__text-title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 767.99px) {
+    .nav {
+        position: absolute;
+        padding: 15px 0;
+        width: 100%;
+    }
+
+    .list__link {
+        margin: 0;
+
+    }
+
+    .header__content-title {
+        text-align: center;
+        color: white;
+        margin-bottom: 80px;
+    }
+
+    .nav__content-list {
+        position: absolute;
+        flex-direction: column;
+        top: 100%;
+        background: black;
+        left: -100%;
+        padding: 40px;
+        gap: 20px;
+        transition: .3s;
+        text-align: center;
+    }
+
+    .nav__menu_btn {
+        display: flex;
+    }
+
+    .nav__menu:hover .nav__content-list {
+        left: 0;
+    }
+    
+    .footer__img{
+        row-gap: 50px;
+    }
+}
+
+@media (max-width:575.99px) {
+    .header {
+        min-height: 700px;
+    }
+
+    .header__content-title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .header__content-btn {
+        font-size: 24px;
+        padding: 10px 12px;
+        line-height: 30px;
+    }
+
+    .nav__content-list {
+        padding: 20px;
+    }
+    
+    .footer__zag{
+        font-size: 32px;
+    }
+}
